@@ -1,3 +1,61 @@
 body {
     padding-top: 5rem;
 }
+
+.content{
+    border: 1px solid grey;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+#head{
+    background: #b76e79;
+    min-height: 50%;
+    padding: 2em;
+}
+
+#picture{
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#headinfo{
+    color: white;
+    text-align: center;
+    margin-top: 0.2em;
+}
+
+#body{
+    padding-left: 10%;
+    padding-top: 4%;
+    padding-bottom: 3em;
+}
+
+#profileinfo{
+    position: relative;
+    left: 25%;
+}
+
+#profileinfo div{
+    display: inline-block;
+    padding-left: 15px;
+    text-align: center;
+}
+
+#bold{
+    font-weight: bold;
+}
+
+button{
+    margin-left: 12%;
+    background-color: #b76e79;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5em 2em;
+    display: block;
+    font-weight: bold;
+    color: white;
+}
